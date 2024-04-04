@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(69, 69, 69);
+    margin: 0;
+    background-image: url(img/drammen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+
+    backdrop-filter: blur(5px);
+    background-color: rgba(128, 128, 128, 0.1);
+    width: 100%;
+}
